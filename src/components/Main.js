@@ -1,9 +1,11 @@
+import React from 'react'
 import search from '../search.svg'
 import speech from '../speech.svg'
 import side from '../side.jpg'
-import { Link } from 'react-router-dom'
+
 const Main = ({ value, word }) => {
     return (
+        
         <div className="container">
             <div className="img-section">
                 {word.length === 0 ? <img src={side} alt="" /> : <h2>{word}</h2>}
@@ -16,7 +18,7 @@ const Main = ({ value, word }) => {
             <div className="img-section submit-btn">
                 <button type="submit">Google Search</button> <button>I'm feeling Lucky</button>
             </div>
-            <div className="img-section translation"><span>Google offered in:</span> <Link>Deutsch</Link> <Link>Français</Link> <Link>Italiano</Link> <Link>Rumantsch</Link>   </div>
+            <div className="img-section translation"><span>Google offered in:</span> <button>Deutsch</button> <button>Français</button> <button>Italiano</button> <button>Rumantsch</button>   </div>
         </div>
     )
 }

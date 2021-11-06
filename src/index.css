@@ -86,13 +86,15 @@ input{
   margin-top: 16px;
   font-family: arial,sans-serif;
 }
-.translation a{
+.translation button{
     color: #1a0dab;
     text-decoration: none;
     font-size: 13px;
+    background: none;
+    border: none;
 }
 
-.translation a:hover {
+.translation button:hover {
   color: -webkit-link;
   cursor: pointer;
   text-decoration: underline;
