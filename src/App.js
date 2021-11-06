@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { useState } from 'react';
+
 import Footer from './Footer';
 import NavBar from './NavBar'
 import Main from './components/Main';

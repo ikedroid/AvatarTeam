@@ -6,4 +6,5 @@
     grid-gap: 2%;
     height: 100vh;
     padding: 0;
+    box-sizing: border-box;
 }
