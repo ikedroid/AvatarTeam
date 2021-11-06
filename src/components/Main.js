@@ -1,6 +1,7 @@
 import search from '../search.svg'
 import speech from '../speech.svg'
 import side from '../side.jpg'
+import { Link } from 'react-router-dom'
 const Main = ({ value, word }) => {
     return (
         <div className="container">
@@ -15,7 +16,7 @@ const Main = ({ value, word }) => {
             <div className="img-section submit-btn">
                 <button type="submit">Google Search</button> <button>I'm feeling Lucky</button>
             </div>
-            <div className="img-section translation"><span>Google offered in:</span> <a>Deutsch</a> <a >Français</a> <a >Italiano</a> <a >Rumantsch</a>   </div>
+            <div className="img-section translation"><span>Google offered in:</span> <Link>Deutsch</Link> <Link>Français</Link> <Link>Italiano</Link> <Link>Rumantsch</Link>   </div>
         </div>
     )
 }
