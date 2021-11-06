@@ -1,0 +1,55 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: flex-end;
+    height: 80px;
+    align-items: center;
+}
+nav>div {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    justify-content: space-around;
+    align-items: center;
+}
+nav>div>a {
+    text-decoration: none;
+    color: #3d3b3b;
+}
+nav>div>a:visited,
+nav>div>button>a:visited
+{
+ color: #3d3b3b;  
+}
+nav>div>a:hover {
+    text-decoration: underline;
+    color: #3d3b3b;
+}
+nav>div>button{
+    background: #63a0ef;
+    border: 1px solid transparent;
+    box-shadow: 0 1px 2px 0 rgb(66 133 244 / 30%), 0 1px 3px 1px rgb(66 133 244 / 15%);
+    padding: 9px 15px;
+    min-width: 105px;
+    border-radius: 4px;
+}
+nav>div>button>a, 
+nav>div>button>a:hover
+ {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Helvetica Arial sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    line-height: 16px;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+    
