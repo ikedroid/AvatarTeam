@@ -12,106 +12,314 @@ code {
     monospace;
 }
 
-/* MAIN BODY CSS */
-
-.container{
-    width: 100%;
-}
-
-.img-section{
-  text-align: center;
-}
-
-.form-input{
-    display: flex;
-    /* grid-template-columns: 10% 70% 5%; */
-    border-radius: 20px;
-    background: #fff;
-    border: 1px solid #dadce0; 
-    width: 50%;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 3px;
-    margin-bottom: 15px;
-    margin-top: 10px;
-}
-input{
+#navBar {
+  margin-top: 15px;
+  top: 16px;
   width: 100%;
-  margin: 0;
-  outline: none;
-  border: none;
-  padding:3px 0;
-}
-.input{
-    display: block;
-    width: 100%;
+  z-index: 103;
+  display: flex;
+  justify-content:flex-end;
 }
 
-.search{
-  display: block;
-  width: 5%;
+
+
+#navR {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100;
+  padding: 0 30px;
 }
 
-.search img{
-  display: block;
-  padding-top: 3px;
+.navLinks 
+{
+  background: none;
+  border:none
   
 }
 
-.speech{
-  display: flex;
-  width: 5%;
-  justify-content: flex-end;
+.navLinks:hover
+{
+  text-decoration: underline;
+}
+/* The align-items: center gets the items to all be vertically aligned */
+
+#navL button {
+  padding-left: 15px;
 }
 
-.search img{
-  display: block;
-  padding-top: 3px;
-  /* width: 100%; */
+#navRLinks {
+ 
 }
 
-.submit-btn button{
-    
-    background-color: #f8f9fa;
-    border: 1px solid #f8f9fa;
-    border-radius: 4px;
-    color: #3c4043;
-    font-size: 14px;
-    margin: 11px 4px;
-    padding: 10px 16px;
-    cursor: pointer;
-    font-family: arial,sans-serif;
+.navRLinks button 
+{
+  border: none;
+  background: none;
 }
-.translation{
-  margin-top: 16px;
-  font-family: arial,sans-serif;
-}
-.translation button{
-    color: #1a0dab;
-    text-decoration: none;
-    font-size: 13px;
-    background: none;
-    border: none;
-}
-
-.translation button:hover {
-  color: -webkit-link;
+#GAppsButton {
+  display: inline-block;
+  background: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+  background-position-x: -132px;
+  background-position-y: -38px;
+  border-radius: 2px;
+  border: none;
+  opacity: 0.55;
   cursor: pointer;
+  background-size: 528px 68px;
+  height: 30px;
+  width: 30px;
+  vertical-align: middle;
+}
+
+#signin {
+  padding-left: 15px;
+  display: inline-block;
+  border: 1px solid #4285f4;
+  border-radius: 8px;
+  font-weight: bold;
+  outline: none;
+  cursor: default;
+  color: #fff;
+  background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+  border-radius: 2px;
+  line-height: 28px;
+  padding: 0 12px;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  margin-left: 15px;
+}
+
+#logo {
+  padding-top: 109px;
+  height: 92px;
+  width: 272px;
+}
+
+#content{
+  height: 233px;
+  margin-top: auto;
+  text-align: -webkit-center;
+}
+#Search {
+  font-size: 20px;
+  padding: 0 8px;
+}
+
+#Search svg {
+  vertical-align: middle;
+}
+
+#voiceSearch {
+  background: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png) 0 0 no-repeat;
+  height: 24px;
+  background-size: cover;
+  width: 24px;
+  vertical-align: middle;
+}
+
+/* =======
+language section
+======== */
+.lang {
+  color: black;
+  display: inline-block;
+  padding: 0 2px;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+
+.lang button:nth-child(1) {
+  margin-left: 5px;
+}
+
+.lang button {
+  background: none;
+  border: none;
+  color: green;
+  text-decoration: none;
+  padding: 0 5px;
+}
+
+.lang button:hover {
   text-decoration: underline;
 }
 
+/* Getting the footer to the bottom via the below two lines */
+#footer {
+  position: absolute; 
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  font-size: 13px;
+  line-height: 40px;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+}
 
-@media only screen and (max-width: 700px)  {
-  .form-input{
-    display: flex;
-    border-radius: 20px;
-    background: #fff;
-    border: 1px solid #dadce0; 
-    width: 80%;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 3px;
-    margin-bottom: 15px;
-    margin-top: 10px;
+.footerLinks{
+  color: rgb(95,99,104);
+  font-family: arial, sans-serif;
+  text-decoration: none;
 }
+
+#footerL {
+  float: left;
+  margin-left: 30px;
 }
+
+#footerR {
+  float: right;
+  margin-right: 30px;
+}
+
+#footerL a {
+  padding-right: 27px;
+}
+
+#footerR a {
+  padding-left: 27px;
+}
+
+.footerLinks:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #609;
+}
+
+#sideSeparation {
+  flex: 1;
+  display: flex;
+  padding-top: 5px;
+  padding-right: 8px;
+  padding-left: 20px;
+}
+
+#voiceInputCont {
+  padding: 0 8px;
+  width: 24px;
+  line-height: 44px;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  flex: 1 0 auto;
+  cursor: pointer;
+}
+
+input::placeholder{
+  text-align: center;
+}
+.img
+{
+  padding-top: 109px;
+  height: 92px;
+  width: 272px;
+}
+.searchBorder {
+  display: flex;
+  background: #fff;
+  height: 44px;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  z-index:3;
+  margin-top: 20px; /* removed the maring: 0 auto */
+  width: 400px;
+  /* margin-top: 30px; */
+}
+
+.searchBorder:hover {
+  box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+  border-color: rgba(223,225,229,0);
+}
+
+.searchBar {
+  display: flex;
+  flex: 100%;
+  color: rgba(0,0,0,0.87);
+  border: none;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  height: 34px !important;
+  cursor: text;
+  word-wrap: break-word;
+  outline: none;
+  /* margin-top: -37px; */
+}
+
+.searchBar:focus {
+  outline: none;
+}
+
+.buttonRegion {
+  height: 70px;
+  padding-top: 18px;
+  width: 487px;
+  z-index: 0;
+}
+
+.searchButton {
+  height: 36px;
+  line-height: 27px;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  background-color: rgb(242,242,242);
+  border-radius: 4px;
+  border: 1px solid rgb(242,242,242);
+  margin: 11px 4px;
+  min-width: 54px;
+  padding: 0 16px;
+  text-align: center;
+  display: inline-block;
+  color: rgb(95,99,104);
+  cursor: pointer
+}
+
+/* Getting the footer to the bottom via the below two lines */
+#footer {
+  position: absolute; 
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  font-size: 13px;
+  line-height: 40px;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+}
+
+.footerLinks{
+  color: rgb(95,99,104);
+  font-family: arial, sans-serif;
+  text-decoration: none;
+}
+
+#footerL {
+  float: left;
+  margin-left: 30px;
+}
+
+#footerR {
+  float: right;
+  margin-right: 30px;
+}
+
+#footerL button {
+  padding-right: 27px;
+}
+
+#footerR button {
+  padding-left: 27px;
+}
+span .footerLinks
+{
+  background:none;
+  border: none;
+}
+.footerLinks:hover {
+  text-decoration: underline;
+}
+
