@@ -11,7 +11,6 @@ const Main = () => {
 
     return (
         <div id="content">
-           
             {searchValue.trim().length < 1 ? <img id="logo" src="https://internship.sidehustle.ng/img/logo-dark.64d45129.png"
                 alt="SideHustle" /> :  <div className="img"><strong>{searchValue}</strong></div>
             }

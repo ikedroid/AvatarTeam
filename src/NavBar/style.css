@@ -3,7 +3,7 @@ nav {
     flex-direction: row;
     width: 100vw;
     justify-content: flex-end;
-    height: 80px;
+    height: 20px;
     align-items: center;
 }
 nav>div {
