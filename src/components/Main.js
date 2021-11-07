@@ -28,16 +28,16 @@ const Main = () => {
                         </div>
                     </div>
                 </div>
-                <div class="buttonRegion">
+                <div className="buttonRegion">
                     <input className="searchButton" type="submit" value="Google Search" />
                     <input className="searchButton" type="button" value="I'm feeling lucky" />
                 </div>
             </form>
 
-            <div class="lang">
+            <div className="lang">
                 Google offered in:
                 <button >Hausa</button> <button >Igbo</button>
-                 <button >Ede Yoruba</button>
+                 <button >Èdè Yorùbá </button>
                    <button >Nigerian Pidgin</button>
                    </div>
                    </div>

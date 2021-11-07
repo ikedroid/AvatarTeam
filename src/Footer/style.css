@@ -3,17 +3,28 @@ div.footer{
     bottom: 0;
     width: 100vw;
     max-height: 200px;
+    background-color: #f2f2f2;
 }
 
-div.footer>div {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    /* padding: 0 30px; */
+div.country 
+{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
 }
+div.footerInfo
+{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;padding: 10px 0px;
+    color: #70757a;
+    
+}
+
 div.footer>div a {
     text-decoration: none;
-    color: #000000;
+    color: #70757a;
     cursor: pointer;
     padding: 0 15px;
     font-size: 14px;
@@ -35,21 +46,25 @@ div.footer>div a>img {
 .footer_first {
     display: flex;
     flex-direction: row;
-    width: 60%;
     justify-content: space-between;
 }
 
 
-@media only screen and (min-width:480px)
-                    and(max-width:640px)
-                    and(orientation:landscape)
+
+@media screen and (max-width:849px) and (min-width:100px)
 {
-    body{
-        background-color:black
+    div.country
+    {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+
     }
 }
+                        
+                    
 
-@media screen and (max-width:750px) {
+@media screen and (max-width:850px) {
     div.footer 
     {
         max-height: 200px;
@@ -70,15 +85,19 @@ div.footer>div a>img {
     }
     .footer_first {
         flex-direction: column-reverse;
-        padding-bottom: 30px;
+        padding-bottom: 5px;
         width: inherit;
     }
     .footer_first:last-child
     {
-        padding-bottom: 30px;
+        padding-bottom:5px;
     }
     .footer_second
     {
-        padding-bottom: 30px;   
+        padding-bottom: 5px;   
+    }
+    .footer_third
+    {
+        padding-top: 10px;
     }
 }

@@ -1,8 +1,9 @@
 # Capstone Project
+Product Documentation:
+This Project is a Capstone Project given to Team Stark to Recreate the Google Homepage and to Replace the google Logo With SideHustle's.
+Another primary aim of this project is that when a text is been entered in the search input box, it displays right above it. When the text is entered and shows above the input box, the Side hustle logo disappears and, when the text area is cleared the logo reappears. 
 
-This Project is a Capstone Project given to Team Stark to Recreate the Google Homepage
-and to Replace the google Logo With SideHustles
-
+Process Documentation:
 # Step By Step Documentation for this Project
 
 # Step 1
